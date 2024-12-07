@@ -17,7 +17,7 @@ The `Automated-Commit` workflow demonstrates the capabilities of GitHub Actions 
 
 The workflow is defined in the `.github/workflows/master.yml` file and includes:
 
-- **Triggers**: Configured to run every 12 hours and can be manually triggered via the GitHub UI with the `workflow_dispatch` event.
+- **Triggers**: Configured to run every 2 hours and can be manually triggered via the GitHub UI with the `workflow_dispatch` event.
 - **Jobs and Steps**: Contains a job `update_commit` that runs on the latest Ubuntu runner, performing tasks such as setting up Git, updating `TIMESTAMP.txt`, and committing and pushing changes.
 - **Permissions**: Granted write permissions to the repository contents.
 
@@ -36,7 +36,7 @@ To create your own version of this repository and workflow:
 Before using the workflow, you'll need to customize it with your GitHub user email and name:
 
 1. Navigate to the `.github/workflows/master.yml` file in your repository.
-2. Edit the file, replacing `"rxmxdhxni@gmail.com"` with your email and `"dante4rt"` with your GitHub username in the `Setup Git Configuration` step.
+2. Edit the file, replacing `"rizwanfairuzmamduh29@gmail.com"` with your email and `"ryzwan29"` with your GitHub username in the `Setup Git Configuration` step.
 3. Commit your changes.
 
 ### Viewing Workflow Runs
